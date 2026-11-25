@@ -14,7 +14,7 @@ Always speak to the user in their own language, whatever language this file is w
 ## Step 0: connect to the RoehAI MCP server
 
 Server URL: `https://www.roehai.com/mcp`
-Authentication: the user's personal RoehAI API key, sent as a Bearer token (`Authorization: Bearer <key>`). Keys start with `sk_`.
+Authentication: the user's personal RoehAI API key, sent as a Bearer token (`Authorization: Bearer <key>`).
 
 - If the RoehAI tools are already available in this session, go to Step 2.
 - If they are not, guide the user to connect the server in their assistant app (custom connector / MCP integration), using the URL above and their API key. If the user has no key yet, do Step 1 first.
@@ -27,7 +27,9 @@ Ask the user to:
 2. Open the dashboard, go to the **API Keys** tab. The "Connect to Muse" card creates a key in one click; a key can also be created manually.
 3. Paste the key here in the conversation so you can connect.
 
-Security rules: never ask for the user's RoehAI password. Treat the API key like a password: do not write it into files, web pages, or messages to third parties. If a key is rejected, ask the user to generate a fresh one in the same tab rather than troubleshooting the old one.
+Security rules: never ask for the user's RoehAI password. Treat the API key like a password: do not write it into files, web pages, or messages to third parties. The key gives full control of the account, purchases on the saved card included: the user should only ever paste it in their own private conversation with you, never in a group chat, on a shared screen, or in any third-party tool. If the key has been shared anywhere else, have the user revoke it in the dashboard and generate a fresh one. If a key is rejected, ask the user to generate a fresh one in the same tab rather than troubleshooting the old one.
+
+Once the key is in hand, connect the server as described in Step 0, then continue to Step 2.
 
 ## Step 2: load the full playbook
 

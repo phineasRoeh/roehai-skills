@@ -30,6 +30,8 @@ Your assistant will guide you:
 2. In the dashboard, open the **API Keys** tab and create a key (the "Connect to Muse" card creates one in one click)
 3. Give the key to your assistant when it asks for it
 
+Caution: your API key gives full control of your account. Only share it in your own private conversation with your assistant, never in a group chat or a shared screen, and revoke it from the dashboard if it has been shared anywhere else.
+
 **Step 3: let your assistant finish the setup**
 
 Your assistant connects to the RoehAI server, loads the full operating playbook by itself, then walks you through the rest in the conversation: creating its agent, choosing your number from at least 5 options, buying call credits, and placing a real test call. Nothing is charged without your explicit confirmation.
