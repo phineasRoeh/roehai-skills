@@ -1,3 +1,5 @@
+![RoehAI Skills: give your AI assistant a real phone number](banner.png)
+
 # RoehAI Skills
 
 **Give your AI assistant a real phone number.**
